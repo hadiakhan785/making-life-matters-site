@@ -1,0 +1,13 @@
+body{
+    display: grid;
+    grid-template-columns: 80px auto 80px;
+    grid-auto-rows: 500px;
+}
+
+header {
+    grid-column: 1 / -1;
+}
+
+article {
+    grid-column: 1 / -1;
+}
